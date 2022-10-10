@@ -19,7 +19,68 @@
 
 .nav-menu{
   display: flex;
-  gap: 32px;
+  gap: 40px;
+  font-family:'CodecProRegular';
+  color:white;
+  font-weight: 400;
+  font-size: 18px;
 }
+
+.conteudo-main{
+border-top:0.1px solid #7d6c6d;
+}
+
+.conteudo-principal{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.conteudo-principal-escrito{
+display: flex;
+flex-direction: column;
+gap: 38px;
+}
+
+.conteudo-principal-linha1{
+  font-family:'CodecProRegular';
+  color:white;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.conteudo-principal-linha2 {
+  font-family:'Courier Prime', monospace;
+  color:white;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.conteudo-principal-linha3{
+  font-family:'CodecProRegular';
+  color:white;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.buttons{
+  display: flex;
+  gap: 32px;
+ 
+  
+}
+
+.button-linkedin, .button-github  {
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  font-family:'CodecProRegular';
+  width: 100px;
+  height: 40px;
+
+}
+
 
 

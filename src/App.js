@@ -20,14 +20,19 @@ function App() {
           <h1 className='conteudo-principal-linha2'> Irene Couto</h1>
           <h3 className='conteudo-principal-linha3'>Desenvolvedora Front-End</h3>
 
+          <div className='buttons'>
           <button className='button-linkedin'>Linkedin</button>
           <button className='button-github'>Github</button>
+          </div>
+
 
         </div>
 
         <img className='image-conteudo-principal' src="/images/img1.png" alt="Foto de perfil"/>
 
       </section>
+
+      
   
     </main>
 
