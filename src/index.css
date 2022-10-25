@@ -13,7 +13,30 @@
   text-decoration: none;
 }
 
+
+#root{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+
 body {
   font-size: 100%;
   background: linear-gradient(to right, #2b2340, #11172a)
+}
+
+body::-webkit-scrollbar {
+  width: 10px;  
+               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background:#1F2539;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #CACACC;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #CACACC;
+    /* creates padding around scroll thumb */
 }
